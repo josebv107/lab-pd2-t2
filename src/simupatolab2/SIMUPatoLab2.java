@@ -16,6 +16,8 @@ public class SIMUPatoLab2 {
     public static void main(String[] args) {
         PatoReal p1 = new PatoReal();
         p1.mostrar();
+        p1.realizarCuaqueo();
+        
         p1.nadar();
         
         PatoDeGoma p2 = new PatoDeGoma();
