@@ -12,7 +12,7 @@ public class Cuaqueo implements Cuaqueable {
 
     @Override
     public void cuaquear() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("Soy un verdadero pato por eso hago CUAC CUAC");
     }
     
 }
