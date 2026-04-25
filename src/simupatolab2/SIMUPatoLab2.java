@@ -34,6 +34,8 @@ public class SIMUPatoLab2 {
         
         PatoCabezaRoja p4 = new PatoCabezaRoja();
         p4.mostrar();
+        p4.realizarCuaqueo();
+        p4.realizarVuelo();
         p4.nadar();
     }
     

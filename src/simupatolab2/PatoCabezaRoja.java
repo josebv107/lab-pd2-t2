@@ -17,12 +17,14 @@ public class PatoCabezaRoja extends Pato {
 
     @Override
     public void realizarVuelo() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        VuelaConAlas v = new VuelaConAlas();
+        v.volar();
     }
 
     @Override
     public void realizarCuaqueo() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        Cuaqueo c = new Cuaqueo();
+        c.cuaquear();
     }
     
 }
