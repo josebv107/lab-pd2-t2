@@ -12,7 +12,7 @@ public class PatoReal extends Pato {
 
     @Override
     protected void mostrar() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("Yo soy un pato real");
     }
 
     @Override

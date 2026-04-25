@@ -14,7 +14,21 @@ public class SIMUPatoLab2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        PatoReal p1 = new PatoReal();
+        p1.mostrar();
+        p1.nadar();
+        
+        PatoDeGoma p2 = new PatoDeGoma();
+        p2.mostrar();
+        p2.nadar();
+        
+        PatoSenuelo p3 = new PatoSenuelo();
+        p3.mostrar();
+        p3.nadar();
+        
+        PatoCabezaRoja p4 = new PatoCabezaRoja();
+        p4.mostrar();
+        p4.nadar();
     }
     
 }

@@ -30,5 +30,7 @@ public abstract class Pato {
     
     public abstract void realizarCuaqueo();
     
-    public abstract void nadar();
+    public void nadar() {
+        System.out.println("Todos los patos nadan");
+    }
 }
