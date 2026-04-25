@@ -28,6 +28,8 @@ public class SIMUPatoLab2 {
         
         PatoSenuelo p3 = new PatoSenuelo();
         p3.mostrar();
+        p3.realizarCuaqueo();
+        p3.realizarVuelo();
         p3.nadar();
         
         PatoCabezaRoja p4 = new PatoCabezaRoja();
