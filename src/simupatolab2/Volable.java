@@ -9,5 +9,5 @@ package simupatolab2;
  * @author sistemas
  */
 public interface Volable {
-    public void cuaquear();
+    public void volar();
 }

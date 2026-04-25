@@ -11,8 +11,8 @@ package simupatolab2;
 public class NoVuela implements Volable {
 
     @Override
-    public void cuaquear() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void volar() {
+        System.out.println("INCAPAZ DE VOLAR");
     }
     
 }
