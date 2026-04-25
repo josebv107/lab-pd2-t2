@@ -12,7 +12,7 @@ public class PatoDeGoma extends Pato {
 
     @Override
     protected void mostrar() {
-        System.out.println("Yo soy un pato de goma");
+        System.out.print("\nYo soy un pato de goma");
     }
 
     @Override
