@@ -22,6 +22,8 @@ public class SIMUPatoLab2 {
         
         PatoDeGoma p2 = new PatoDeGoma();
         p2.mostrar();
+        p2.realizarCuaqueo();
+        p2.realizarVuelo();
         p2.nadar();
         
         PatoSenuelo p3 = new PatoSenuelo();
