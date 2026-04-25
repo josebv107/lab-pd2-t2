@@ -9,8 +9,8 @@ package simupatolab2;
  * @author sistemas
  */
 public abstract class Pato {
-    private Volable volable;
-    private Cuaqueable cuaqueable;
+    protected Volable volable;
+    protected Cuaqueable cuaqueable;
     
     public Pato() {
         
@@ -24,7 +24,7 @@ public abstract class Pato {
         
     }
     
-    public void mostrar() {
+    protected void mostrar() {
         
     }
     
