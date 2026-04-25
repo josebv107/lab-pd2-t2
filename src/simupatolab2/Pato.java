@@ -16,27 +16,19 @@ public abstract class Pato {
         
     }
     
-    public void setVolable() {
-        
+    public void setVolable(Volable fb) {
+        this.volable = fb;
     }
     
-    public void setCuaqueable() {
-        
+    public void setCuaqueable(Cuaqueable qb) {
+        this.cuaqueable = qb;
     }
     
-    protected void mostrar() {
-        
-    }
+    protected abstract void mostrar();
     
-    public void realizarVuelo() {
-        
-    }
+    public abstract void realizarVuelo();
     
-    public void realizarCuaqueo() {
-        
-    }
+    public abstract void realizarCuaqueo();
     
-    public void nadar() {
-        
-    }
+    public abstract void nadar();
 }
