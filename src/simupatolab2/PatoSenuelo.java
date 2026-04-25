@@ -15,7 +15,7 @@ public class PatoSenuelo extends Pato {
 
     @Override
     protected void mostrar() {
-        System.out.print("\nYo soy Pato Señuelo");
+        System.out.println("\nYo soy Pato Señuelo");
     }
 
     @Override
