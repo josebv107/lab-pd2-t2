@@ -20,5 +20,23 @@ public abstract class Pato {
         
     }
     
+    public void setCuaqueable() {
+        
+    }
     
+    public void mostrar() {
+        
+    }
+    
+    public void realizarVuelo() {
+        
+    }
+    
+    public void realizarCuaqueo() {
+        
+    }
+    
+    public void nadar() {
+        
+    }
 }
