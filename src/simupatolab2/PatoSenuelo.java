@@ -8,6 +8,10 @@ package simupatolab2;
  *
  * @author sistemas
  */
-public class PatoSenuelo extends Pato{
+public class PatoSenuelo extends Pato {
+    public PatoSenuelo() {
+        
+    }
+    
     
 }
