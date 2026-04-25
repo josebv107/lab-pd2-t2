@@ -17,7 +17,8 @@ public class PatoReal extends Pato {
 
     @Override
     public void realizarVuelo() {
-        
+        VuelaConAlas v = new VuelaConAlas();
+        v.volar();
     }
 
     @Override

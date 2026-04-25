@@ -17,7 +17,7 @@ public class SIMUPatoLab2 {
         PatoReal p1 = new PatoReal();
         p1.mostrar();
         p1.realizarCuaqueo();
-        
+        p1.realizarVuelo();
         p1.nadar();
         
         PatoDeGoma p2 = new PatoDeGoma();
