@@ -30,11 +30,11 @@ public abstract class Pato {
     protected abstract void mostrar();
     
     public void realizarVuelo() {
-
+        volable.volar();
     }
     
     public void realizarCuaqueo() {
-
+        cuaqueable.cuaquear();
     }
     
     public void nadar() {
