@@ -31,6 +31,6 @@ public abstract class Pato {
     public abstract void realizarCuaqueo();
     
     public void nadar() {
-        System.out.println("Todos los patos nadan");
+        System.out.println("TODOS LOS PATOS NADAN");
     }
 }
