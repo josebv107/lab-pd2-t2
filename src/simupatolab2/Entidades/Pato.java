@@ -20,11 +20,11 @@ public abstract class Pato {
     }
     
     public void setVolable(Volable fb) {
-        this.volable = fb;
+        volable = fb;
     }
     
     public void setCuaqueable(Cuaqueable qb) {
-        this.cuaqueable = qb;
+        cuaqueable = qb;
     }
     
     protected abstract void mostrar();

@@ -4,6 +4,9 @@
  */
 package simupatolab2.Entidades;
 
+import simupatolab2.Acciones.Cuaqueo;
+import simupatolab2.Acciones.VuelaConAlas;
+
 /**
  *
  * @author sistemas
@@ -11,7 +14,8 @@ package simupatolab2.Entidades;
 public class PatoReal extends Pato {
 
     public PatoReal() {
-
+        volable = new VuelaConAlas();
+        cuaqueable = new Cuaqueo();
     }
 
     @Override
