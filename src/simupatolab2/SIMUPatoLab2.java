@@ -4,6 +4,11 @@
  */
 package simupatolab2;
 
+import simupatolab2.Entidades.PatoCabezaRoja;
+import simupatolab2.Entidades.PatoDeGoma;
+import simupatolab2.Entidades.PatoReal;
+import simupatolab2.Entidades.PatoSenuelo;
+
 /**
  *
  * @author sistemas

@@ -2,7 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package simupatolab2;
+package simupatolab2.Entidades;
+
+import simupatolab2.Acciones.Cuaqueo;
+import simupatolab2.Acciones.VuelaConAlas;
 
 /**
  *
@@ -11,7 +14,7 @@ package simupatolab2;
 public class PatoReal extends Pato {
 
     @Override
-    protected void mostrar() {
+    public void mostrar() {
         System.out.println("\nYo soy un verdadero PATO REAL");
     }
 

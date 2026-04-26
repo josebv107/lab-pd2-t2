@@ -2,17 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package simupatolab2;
+package simupatolab2.Acciones;
 
 /**
  *
  * @author sistemas
  */
-public class CuaqueoMudo implements Cuaqueable {
+public class NoVuela implements Volable {
 
     @Override
-    public void cuaquear() {
-        System.out.println("<<Silencio>>");
+    public void volar() {
+        System.out.println("INCAPAZ DE VOLAR");
     }
     
 }

@@ -2,28 +2,34 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package simupatolab2;
+package simupatolab2.Entidades;
+
+import simupatolab2.Acciones.CuaqueoMudo;
+import simupatolab2.Acciones.NoVuela;
 
 /**
  *
  * @author sistemas
  */
-public class PatoCabezaRoja extends Pato {
+public class PatoSenuelo extends Pato {
+    public PatoSenuelo() {
+        
+    }
 
     @Override
-    protected void mostrar() {
-        System.out.println("\nYo soy un real PATO CABEZA ROJA");
+    public void mostrar() {
+        System.out.println("\nYo soy Pato Señuelo");
     }
 
     @Override
     public void realizarVuelo() {
-        VuelaConAlas v = new VuelaConAlas();
-        v.volar();
+        NoVuela n = new NoVuela();
+        n.volar();
     }
 
     @Override
     public void realizarCuaqueo() {
-        Cuaqueo c = new Cuaqueo();
+        CuaqueoMudo c = new CuaqueoMudo();
         c.cuaquear();
     }
     
