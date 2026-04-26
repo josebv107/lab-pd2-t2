@@ -4,13 +4,18 @@
  */
 package simupatolab2.Entidades;
 
+import simupatolab2.Acciones.CuaqueoMudo;
+import simupatolab2.Acciones.NoVuela;
+
 /**
  *
  * @author sistemas
  */
 public class PatoSenuelo extends Pato {
+
     public PatoSenuelo() {
-        
+        volable = new NoVuela();
+        cuaqueable = new CuaqueoMudo();
     }
 
     @Override

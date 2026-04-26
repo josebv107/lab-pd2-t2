@@ -4,6 +4,9 @@
  */
 package simupatolab2.Entidades;
 
+import simupatolab2.Acciones.Chirreo;
+import simupatolab2.Acciones.NoVuela;
+
 /**
  *
  * @author sistemas
@@ -11,7 +14,8 @@ package simupatolab2.Entidades;
 public class PatoDeGoma extends Pato {
 
     public PatoDeGoma() {
-
+        volable = new NoVuela();
+        cuaqueable = new Chirreo();
     }
 
     @Override
