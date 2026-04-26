@@ -4,9 +4,6 @@
  */
 package simupatolab2.Entidades;
 
-import simupatolab2.Acciones.CuaqueoMudo;
-import simupatolab2.Acciones.NoVuela;
-
 /**
  *
  * @author sistemas
@@ -20,17 +17,4 @@ public class PatoSenuelo extends Pato {
     public void mostrar() {
         System.out.println("\nYo soy Pato Señuelo");
     }
-
-    @Override
-    public void realizarVuelo() {
-        NoVuela n = new NoVuela();
-        n.volar();
-    }
-
-    @Override
-    public void realizarCuaqueo() {
-        CuaqueoMudo c = new CuaqueoMudo();
-        c.cuaquear();
-    }
-    
 }

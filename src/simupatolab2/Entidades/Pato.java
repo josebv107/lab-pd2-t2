@@ -29,9 +29,13 @@ public abstract class Pato {
     
     protected abstract void mostrar();
     
-    public abstract void realizarVuelo();
+    public void realizarVuelo() {
+
+    }
     
-    public abstract void realizarCuaqueo();
+    public void realizarCuaqueo() {
+
+    }
     
     public void nadar() {
         System.out.println("TODOS LOS PATOS NADAN");

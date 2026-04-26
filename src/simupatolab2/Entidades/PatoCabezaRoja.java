@@ -4,30 +4,19 @@
  */
 package simupatolab2.Entidades;
 
-import simupatolab2.Acciones.Cuaqueo;
-import simupatolab2.Acciones.VuelaConAlas;
-
 /**
  *
  * @author sistemas
  */
 public class PatoCabezaRoja extends Pato {
 
+    public PatoCabezaRoja() {
+
+    }
+
     @Override
     public void mostrar() {
         System.out.println("\nYo soy un real PATO CABEZA ROJA");
     }
 
-    @Override
-    public void realizarVuelo() {
-        VuelaConAlas v = new VuelaConAlas();
-        v.volar();
-    }
-
-    @Override
-    public void realizarCuaqueo() {
-        Cuaqueo c = new Cuaqueo();
-        c.cuaquear();
-    }
-    
 }

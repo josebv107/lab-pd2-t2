@@ -4,30 +4,19 @@
  */
 package simupatolab2.Entidades;
 
-import simupatolab2.Acciones.Chirreo;
-import simupatolab2.Acciones.NoVuela;
-
 /**
  *
  * @author sistemas
  */
 public class PatoDeGoma extends Pato {
 
+    public PatoDeGoma() {
+
+    }
+
     @Override
     public void mostrar() {
         System.out.println("\nYo soy un pato de goma");
-    }
-
-    @Override
-    public void realizarVuelo() {
-        NoVuela n = new NoVuela();
-        n.volar();
-    }
-
-    @Override
-    public void realizarCuaqueo() {
-        Chirreo c = new Chirreo();
-        c.cuaquear();
     }
     
 }
